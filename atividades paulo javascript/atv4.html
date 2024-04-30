@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo da Média Bimestral</title>
+</head>
+<body>
+
+<script>
+  var nota1 = prompt("Por favor, informe a primeira nota bimestral:");
+  var nota2 = prompt("Informe a segunda nota bimestral:");
+  var nota3 = prompt("Informe a terceira nota bimestral:");
+  var nota4 = prompt("Informe a quarta nota bimestral:");
+
+  nota1 = parseFloat(nota1);
+  nota2 = parseFloat(nota2);
+  nota3 = parseFloat(nota3);
+  nota4 = parseFloat(nota4);
+
+  var media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+  alert("A média bimestral é: " + media.toFixed(2));
+</script>
+
+</body>
+</html>

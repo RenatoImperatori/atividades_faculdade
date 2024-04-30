@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Salário</title>
+</head>
+<body>
+
+<script>
+  var valorPorHora = prompt("Por favor, informe quanto você ganha por hora:");
+  var horasTrabalhadas = prompt("Agora, informe o número de horas trabalhadas no mês:");
+
+  valorPorHora = parseFloat(valorPorHora);
+  horasTrabalhadas = parseFloat(horasTrabalhadas);
+
+  var salarioTotal = valorPorHora * horasTrabalhadas;
+
+  alert("O total do seu salário no referido mês é: R$" + salarioTotal.toFixed(2));
+</script>
+
+</body>
+</html>
